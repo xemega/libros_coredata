@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6707DEB1C337C68002454AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6707DEA1C337C68002454AB /* AppDelegate.swift */; };
+		C6707DEE1C337C68002454AB /* libros_maestro_detalle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6707DEC1C337C68002454AB /* libros_maestro_detalle.xcdatamodeld */; };
+		C6707DF01C337C68002454AB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6707DEF1C337C68002454AB /* MasterViewController.swift */; };
+		C6707DF21C337C68002454AB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6707DF11C337C68002454AB /* DetailViewController.swift */; };
+		C6707DF51C337C68002454AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6707DF31C337C68002454AB /* Main.storyboard */; };
+		C6707DF71C337C69002454AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6707DF61C337C69002454AB /* Assets.xcassets */; };
+		C6707DFA1C337C69002454AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6707DF81C337C69002454AB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C6707DE71C337C68002454AB /* libros_maestro-detalle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "libros_maestro-detalle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6707DEA1C337C68002454AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6707DED1C337C68002454AB /* libros_maestro_detalle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = libros_maestro_detalle.xcdatamodel; sourceTree = "<group>"; };
+		C6707DEF1C337C68002454AB /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		C6707DF11C337C68002454AB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C6707DF41C337C68002454AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6707DF61C337C69002454AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6707DF91C337C69002454AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6707DFB1C337C69002454AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6707DE41C337C68002454AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6707DDE1C337C68002454AB = {
+			isa = PBXGroup;
+			children = (
+				C6707DE91C337C68002454AB /* libros_maestro-detalle */,
+				C6707DE81C337C68002454AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6707DE81C337C68002454AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6707DE71C337C68002454AB /* libros_maestro-detalle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6707DE91C337C68002454AB /* libros_maestro-detalle */ = {
+			isa = PBXGroup;
+			children = (
+				C6707DEA1C337C68002454AB /* AppDelegate.swift */,
+				C6707DEF1C337C68002454AB /* MasterViewController.swift */,
+				C6707DF11C337C68002454AB /* DetailViewController.swift */,
+				C6707DF31C337C68002454AB /* Main.storyboard */,
+				C6707DF61C337C69002454AB /* Assets.xcassets */,
+				C6707DF81C337C69002454AB /* LaunchScreen.storyboard */,
+				C6707DFB1C337C69002454AB /* Info.plist */,
+				C6707DEC1C337C68002454AB /* libros_maestro_detalle.xcdatamodeld */,
+			);
+			path = "libros_maestro-detalle";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6707DE61C337C68002454AB /* libros_maestro-detalle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6707DFE1C337C69002454AB /* Build configuration list for PBXNativeTarget "libros_maestro-detalle" */;
+			buildPhases = (
+				C6707DE31C337C68002454AB /* Sources */,
+				C6707DE41C337C68002454AB /* Frameworks */,
+				C6707DE51C337C68002454AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libros_maestro-detalle";
+			productName = "libros_maestro-detalle";
+			productReference = C6707DE71C337C68002454AB /* libros_maestro-detalle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6707DDF1C337C68002454AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "César Méndez";
+				TargetAttributes = {
+					C6707DE61C337C68002454AB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TAW47SE752;
+					};
+				};
+			};
+			buildConfigurationList = C6707DE21C337C68002454AB /* Build configuration list for PBXProject "libros_maestro-detalle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6707DDE1C337C68002454AB;
+			productRefGroup = C6707DE81C337C68002454AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6707DE61C337C68002454AB /* libros_maestro-detalle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6707DE51C337C68002454AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6707DFA1C337C69002454AB /* LaunchScreen.storyboard in Resources */,
+				C6707DF71C337C69002454AB /* Assets.xcassets in Resources */,
+				C6707DF51C337C68002454AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6707DE31C337C68002454AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6707DEE1C337C68002454AB /* libros_maestro_detalle.xcdatamodeld in Sources */,
+				C6707DEB1C337C68002454AB /* AppDelegate.swift in Sources */,
+				C6707DF01C337C68002454AB /* MasterViewController.swift in Sources */,
+				C6707DF21C337C68002454AB /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6707DF31C337C68002454AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6707DF41C337C68002454AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6707DF81C337C69002454AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6707DF91C337C69002454AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6707DFC1C337C69002454AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6707DFD1C337C69002454AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6707DFF1C337C69002454AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "libros_maestro-detalle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xemega-apps.libros-maestro-detalle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6707E001C337C69002454AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "libros_maestro-detalle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xemega-apps.libros-maestro-detalle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6707DE21C337C68002454AB /* Build configuration list for PBXProject "libros_maestro-detalle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6707DFC1C337C69002454AB /* Debug */,
+				C6707DFD1C337C69002454AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6707DFE1C337C69002454AB /* Build configuration list for PBXNativeTarget "libros_maestro-detalle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6707DFF1C337C69002454AB /* Debug */,
+				C6707E001C337C69002454AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C6707DEC1C337C68002454AB /* libros_maestro_detalle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C6707DED1C337C68002454AB /* libros_maestro_detalle.xcdatamodel */,
+			);
+			currentVersion = C6707DED1C337C68002454AB /* libros_maestro_detalle.xcdatamodel */;
+			path = libros_maestro_detalle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C6707DDF1C337C68002454AB /* Project object */;
+}
