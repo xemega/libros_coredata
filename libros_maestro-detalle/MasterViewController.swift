@@ -16,7 +16,7 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
     var detailViewController: DetailViewController? = nil
     var managedObjectContext: NSManagedObjectContext? = nil
     
-    var contexto : NSManagedObjectContext? = nil
+     var contexto : NSManagedObjectContext? = nil
 
 
     override func viewDidLoad() {
@@ -31,8 +31,33 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
             self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
         }
         
+        
+        self.contexto = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext
+        let entLibros = NSEntityDescription.entityForName("Libros", inManagedObjectContext: self.contexto!)
+        
+        let petiListado = entLibros?.managedObjectModel.fetchRequestTemplateForName("petListado")
+        
+        do{
+            let entidadLibros = try self.contexto?.executeFetchRequest(petiListado!)
+            
+            for entidadLibro2 in entidadLibros! {
+                let tmpTitulo : String? = (entidadLibro2.valueForKey("titulo") as! String)
+                let tmpISBN : String? = (entidadLibro2.valueForKey("isbn") as! String)
+                
+                
+                arregloLibros.append([tmpTitulo!,tmpISBN!])
+            }
+            
+        }catch{
+            
+        }
+
+        
 
     }
+    
+
+ 
 
     @IBAction func buscarLibro(sender: AnyObject) {
         
